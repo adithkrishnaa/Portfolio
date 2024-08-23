@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-secondary overflow-hidden leading-relaxed;
+  }
+  .page {
+    @apply w-full h-screen overflow-hidden;
+  }
+  .h1 {
+    @apply text-2xl leading-tight md:text-6xl md:leading-[1.8] mb-8 font-semibold;
+  }
+  .h2 {
+    @apply text-2xl leading-tight md:text-4xl md:leading-[1.8] mb-4 font-semibold;
+  }
+  p {
+    @apply leading-[1.8] text-white/70 font-light;
+  }
+  .btn,
+  .input {
+    @apply h-[52px];
+  }
+  .input {
+    @apply w-full h-[52px] rounded-lg pl-6 capitalize;
+  }
+  .input,
+  .textarea {
+    @apply bg-transparent outline-none hover:ring-1 hover:ring-accent border border-black/40 placeholder:text-black/40 placeholder:font-light;
+  }
+  .textarea {
+    @apply w-full h-[175px] p-6 capitalize rounded-lg resize-none;
+  }
+}
