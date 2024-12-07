@@ -21,7 +21,7 @@ const projectsData = [
     image: "/project2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/adithkrishnaa/Earakibanagal",
-    previewUrl: "https://eyarkaibanangal.com/",
+    previewUrl: "https://eyarkaibanagal.netlify.app/",
   },
 ];
 
