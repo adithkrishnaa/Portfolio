@@ -20,6 +20,13 @@ const projectsData = [
     tag: ["All", "Web"],
     previewUrl: "https://eyarkaibanagal.netlify.app/",
   },
+  {
+    id: 3,
+    title: "Real Estate Website (Vite, React.js, Tailwind CSS,MangoDB)",
+    image: "/project3.png",
+    tag: ["All", "Web"],
+    previewUrl: "http://mybrokers.co.in/",
+  },
 ];
 
 const ProjectsSection = () => {
