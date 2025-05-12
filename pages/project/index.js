@@ -9,10 +9,8 @@ const projectsData = [
   {
     id: 1,
     title: "Responsive Landing Page (JavaScript, Tailwind CSS, EmailJS)",
-
     image: "/project1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/adithkrishnaa/Boatman",
     previewUrl: "https://boatmanoverseas.com/",
   },
   {
@@ -20,7 +18,6 @@ const projectsData = [
     title: "E-commerce Website (Vite, React.js, Tailwind CSS,Firebase)",
     image: "/project2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/adithkrishnaa/Earakibanagal",
     previewUrl: "https://eyarkaibanagal.netlify.app/",
   },
 ];
@@ -67,7 +64,6 @@ const ProjectsSection = () => {
                 title={project.title}
                 description={project.description}
                 imgUrl={project.image}
-                gitUrl={project.gitUrl}
                 previewUrl={project.previewUrl}
               />
             </motion.li>

@@ -13,10 +13,13 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
+        <li>MangoDB</li>
         <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
         <li>Nextjs</li>
+        <li>Python</li>
+        <li>AWS</li>
       </ul>
     ),
   },
@@ -63,7 +66,7 @@ const TAB_DATA = [
           Collaborated with backend developers and designers to ensure seamless
           integration and functionality of web applications.
         </span>
-        <li className="text-primary">
+        {/*      <li className="text-primary">
           <span className="text-accent">IT & Web Developer</span>
           <br />
           Basket Hunt Pvt Ltd.{" "}
@@ -75,7 +78,7 @@ const TAB_DATA = [
           <br />
           Conducted usability testing and gathered feedback to iterate on
           interface improvements.
-        </span>
+        </span> */}
         <li className="text-primary">
           <span className="text-accent"> Associate Trainer & Developer</span>
           <br />
@@ -90,6 +93,23 @@ const TAB_DATA = [
           Developed and maintained training-related web applications using HTML,
           CSS, JavaScript, and React, enhancing the learning platform's
           functionality and user experience.
+        </span>
+
+        <li className="text-primary">
+          <span className="text-accent"> Full Stack Developer</span>
+          <br />
+          Live Cristle, Bengaluru.{" "}
+          <span className="text-accent">01/24 - Present</span>
+        </li>
+        <span>
+          Forged a user-friendly dashboard utilizing React.js that visualized
+          key performance indicators; personally wrote 500+ lines of code, and
+          fixed 10+ bugs per week, improving data accessibility.
+          <br />
+          Enhanced application loading speeds by 30% through strategic code
+          refactoring and image optimization techniques, directly improving user
+          engagement and decreasing bounce rates, which led to a 15% rise in
+          conversions.
         </span>
       </ul>
     ),
@@ -131,14 +151,7 @@ const About = () => {
             <h2 className="text-4xl font-bold text-black mb-4 mt-5">
               About Me
             </h2>
-            <p className="text-base text-black/80 lg:text-lg">
-              Web Developer with 2+ years of experience in crafting dynamic,
-              user-friendly interfaces using HTML, CSS, JavaScript, and React. I
-              focus on enhancing user engagement and functionality, with a
-              proven track record in delivering high-quality web applications.
-              Passionate about continuous learning and innovation in web
-              development
-            </p>
+          
           </motion.div>
 
           <motion.div

@@ -16,7 +16,7 @@ const Home = () => {
             className="h1">
             Hy! I am
             <br />
-            <span className="text-accent">Web Developer</span>
+            <span className="text-accent">Full-Stack  Developer</span>
           </motion.h1>
           <motion.p
             variants={smoothIn("down", 0.2)}
@@ -24,10 +24,12 @@ const Home = () => {
             animate="show"
             exit="hidden"
             className="max-w-sm text-black xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-8">
-            Web Developer with 2+ years of experience in creating dynamic,
-            user-friendly interfaces using HTML, CSS, JavaScript, and React.
-            Dedicated to enhancing user engagement and delivering high-quality
-            web applications.
+            Full-Stack Web Developer with 3+ years of experience in designing
+            and developing user-centric web applications using JavaScript,
+            React.js, Node.js, and Tailwind CSS. Having experience building
+            scalable applications, optimizing performance, and improving user
+            experience. Strong problem solving skills and experience in front-
+            and back-end development.
           </motion.p>
           <div>
             <Link
