@@ -16,7 +16,7 @@ const Home = () => {
             className="h1">
             Hy! I am
             <br />
-            <span className="text-accent">Full-Stack  Developer</span>
+            <span className="text-accent">Full-Stack Developer</span>
           </motion.h1>
           <motion.p
             variants={smoothIn("down", 0.2)}
@@ -38,7 +38,7 @@ const Home = () => {
               Contact
             </Link>
             <Link
-              href="/Adithkrishna_Web_Developer.pdf"
+              href="/Adithkrishna_Full_Stack_Developer.pdf"
               target="_blank" // Opens the link in a new tab/window
               rel="noopener noreferrer"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
